@@ -29,11 +29,11 @@ public void sierpinski(int x, int y, int len)
     sierpinski(x+len/4, y-len/2, len/2);
   }
 }
-public void sqware(int a, int b, int extent)
+public void sqware(int a, int b, int c)
 {
   int green = (int)(Math.random()*256);
   int blue = (int)(Math.random()*256);
   stroke(0, green, blue);
   fill(0,green, blue);
-  square(a, b, extent);
+  rect(a, b, c, c);
 }
